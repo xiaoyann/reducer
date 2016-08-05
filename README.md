@@ -23,3 +23,7 @@ export default function(state = initState, action) {
     return reducer.reduce(state, action);
 };
 ```
+
+```js
+dispatch({ type: 'ADD_TODO', path: 'todos.items', data: 'go home' })
+```
